@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 data2.forEach(obj2 =>  {
                     if (obj2["id"] == obj["id"]){
                         username = "@" + obj2["username"];
-                        picture = "photos/" + obj2["profile_photo"];
+                        picture = obj2["profile_photo"];
                     }
                 })
 
